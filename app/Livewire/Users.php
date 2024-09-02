@@ -5,6 +5,7 @@ namespace App\Livewire;
 use App\Models\Conversation;
 use App\Models\User;
 use Livewire\Component;
+use Illuminate\Broadcasting\PrivateChannel;
 
 class Users extends Component
 {
